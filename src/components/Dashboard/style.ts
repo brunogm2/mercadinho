@@ -30,6 +30,7 @@ export const BoasVindas = styled.section`
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+    font-size: 18px;
 `;
 
 export const DadosValores = styled.div`
@@ -44,6 +45,16 @@ export const DadosLeft = styled.div`
     width: 40%;
     height: 100%;
     border-radius: 20px;
+    padding: 20px 0px 0px 30px;
+
+    >p{
+        color: var(--color-letters);
+    }
+    >h1{
+        color: var(--color-tertiary);
+        font-size: 60px;
+        margin: 5px;
+    }
 `;
 
 export const DadosRight = styled.div`

@@ -5,8 +5,7 @@ import { Container, SectionRelatorios, MainMenu, MainSection,
          RankingRight, PrimaryRanking, SecondaryRanking } from "./style";
 import Header from "../Header";
 import Menu from "../Menu";
-
-
+    
 function Dashboard(){
     return(
 
@@ -25,9 +24,21 @@ function Dashboard(){
                     </BoasVindas>
                     <DadosValores>
                         <DadosLeft>
-                        
+                            <p>
+                                Boletos para outubro
+                            </p>
+                            <h1>
+                                25%
+                            </h1>
+                            <p style={{fontSize: '10px', fontWeight: 'bold'}}>
+                                Valor variavel
+                            </p>
+                            <p style={{fontSize: '10px', fontWeight: 'bold'}}>
+                                Pode aumentar ao decorrer do mês
+                            </p>
                         </DadosLeft>
                         <DadosRight>
+                       
                         
                         </DadosRight>
                     </DadosValores>

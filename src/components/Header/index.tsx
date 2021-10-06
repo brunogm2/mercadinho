@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, SelectProfile, Primary, Secondary, 
-         ProfileConfiguration, Profile, Settings, DashboardPrincipal, DashboardSecondary } from "./style";
+         ProfileConfiguration, Profile, Settings, DashboardPrincipal, DashboardSecondary,
+         GearHeader, ImgUser, NameUser } from "./style";
 
 function Header() {
     
@@ -9,13 +10,9 @@ function Header() {
             <Container>
                 <SelectProfile>
                     <Primary>
-                        <DashboardPrincipal>
-                            <h1>Principal |</h1>
-                        </DashboardPrincipal>
-                        
-                        <DashboardSecondary>
-                            <h1>Secundario</h1>
-                        </DashboardSecondary>
+                       <p style={{fontWeight: 'bold', color: '#CFA17E'}}>Principal</p> 
+                       <p>|</p> 
+                       <p>Secundario</p>
                     </Primary>
                     <Secondary>
 
@@ -23,10 +20,13 @@ function Header() {
                 </SelectProfile>
                 <ProfileConfiguration>
                     <Profile>
-
+                            <ImgUser/>
+                            <NameUser>
+                                Admin
+                            </NameUser>
                     </Profile>
                     <Settings>
-
+                        <GearHeader/>
                     </Settings>
                 </ProfileConfiguration>
             </Container>
